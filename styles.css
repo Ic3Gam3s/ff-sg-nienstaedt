@@ -3,6 +3,7 @@
     margin: 0%;
     font-family: Arial;
 }
+
 body {
     background-color: whitesmoke;
     position: relative;
@@ -497,6 +498,9 @@ a:visited {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 0;
+    margin-right: 0;
+    max-width: 0px;
+    min-width: 0px;
 }
 
 .TR_Columns {
@@ -510,7 +514,8 @@ a:visited {
     padding-bottom: 10px;
     padding-right: 0;
     margin-right: 0;
-    max-width: 50px;
+    max-width: 0px;
+    min-width: 0px;
 }
 
 
@@ -524,6 +529,8 @@ a:visited {
     padding-bottom: 10px;
     padding-right: 0;
     margin-right: 0;
+    max-width: 0px;
+    min-width: 0px;
 }
 
 .TR_Einsatz_Entity:nth-child(even) {
@@ -587,4 +594,15 @@ a:visited {
 
 .FF_Vehicles .FF_Command_FlexRow .FF_Command_Item img {
     width: 100%;
+}
+
+.FF_Dienst_Flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.FF_Dienst_Row table tr th{
+    padding: 20px;
 }
